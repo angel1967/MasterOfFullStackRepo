@@ -24,3 +24,20 @@ class Person {
   
   console.log(person1.name); // Miguel
   console.log(person2.name); // Castañeda
+
+
+// Feature-1 Añadir la clase C en Feature-3
+class C {
+    constructor(name2) {
+      this.name2 = name2;
+    }
+  }
+  
+  // crea un objeto
+  const person5 = new C('Michael');
+  const person6 = new C('CastanedaAguilera');
+  console.log("Feature-3")
+  
+  console.log(person5.name2); // Michael
+  console.log(person6.name2); // CastanedaAguilera
+  
