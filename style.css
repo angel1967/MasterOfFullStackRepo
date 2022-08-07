@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+  }
+  
+  p {
+    box-sizing: border-box;
+    font-family: tahoma;
+    font-size: 14px;
+    color: black;
+  }
+  
+  div {
+    background-color: yellowgreen;
+    width: 750px;
+    color: black;
+  }
